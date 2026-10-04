@@ -79,7 +79,7 @@ function App() {
     setMessage("Registering...");
 
     try {
-      const response = await fetch("http://localhost:5000/api/register", {
+      const response = await fetchfetch("https://the-last-commit-ng63.onrender.com/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
